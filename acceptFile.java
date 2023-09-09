@@ -54,10 +54,10 @@ public class acceptFile {
         System.out.println("您是否要退出 确定退出输入Y，不退出输入N");
         char c = input.next().toUpperCase().charAt(0);
         if(c=='N'){
+            socket=new Socket(IP,PORT);
             menu();
         } else if (c=='Y') {
-
+            
         }
     }
-
 }
